@@ -1,0 +1,9 @@
+namespace: prod-vote
+service:
+  nameVote: vote-service
+  nameRedis: redis-service
+configmap:
+  data:
+    OPTION_A: Cats
+    OPTION_B: Dogs
+
