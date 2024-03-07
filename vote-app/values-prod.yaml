@@ -1,4 +1,5 @@
 namespace: prod-vote
+replicas: 1
 NodePort : 30005
 service:
   nameVote: vote-service
