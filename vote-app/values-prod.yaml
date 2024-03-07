@@ -1,4 +1,5 @@
 namespace: prod-vote
+NodePort : 30005
 service:
   nameVote: vote-service
   nameRedis: redis-service

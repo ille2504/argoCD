@@ -1,6 +1,7 @@
 appNameVote: voting-deploy
 appNameRedis: redis-deploy
 namespace: default
+NodePort : 30001
 service:
   nameVote: vote-service
   nameRedis: redis-service
