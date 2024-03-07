@@ -6,5 +6,5 @@ service:
   nameRedis: redis-service
 configmap:
   data:
-    OPTION_A: Majo
-    OPTION_B: Mario
+    OPTION_A: Mario
+    OPTION_B: Majo
