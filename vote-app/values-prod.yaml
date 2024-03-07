@@ -5,8 +5,8 @@ service:
   nameVote: vote-service
   nameRedis: redis-service
 configmap:
-  name: voting-cmv1.2
+  name: voting-cmv1.3
   data:
-    OPTION_A: Cats
-    OPTION_B: Dogs
+    OPTION_A: Birds
+    OPTION_B: Cats
 
